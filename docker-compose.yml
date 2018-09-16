@@ -1,0 +1,9 @@
+version: '2'
+services:
+  image-test:
+    build:
+      context: .
+      args:
+        SCRIPT: "./zsh/cd.sh"
+    stdin_open: true
+    tty: true
