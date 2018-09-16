@@ -4,6 +4,6 @@ services:
     build:
       context: .
       args:
-        SCRIPT: "./zsh/cd.sh"
+        SCRIPT_URL: "https://raw.githubusercontent.com/alexrochas/pranks/master/zsh/cd.sh"
     stdin_open: true
     tty: true
